@@ -1,10 +1,11 @@
-// Write your code here
+//let allows me to reassign the variable later first position 0 is Laptop
 let products = ["Laptop", "Phone", "Headphones", "Monitor"];
+//products[0] gets the first product, which is "Laptop".
 function logFirstProduct() {
   console.log(products[0]);
 }
-function addProduct(productName) {
-  products.push(productName);
+function addProduct(Keyboard) {
+  products.push(Keyboard);
 }
 function updateProductName(position, newName) {
   if (position >= 0 && position < products.length) {
